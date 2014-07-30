@@ -1,0 +1,99 @@
+/**
+ * Theme Name:  CCC
+ * Theme URI:   https://github.com/DioceseOfCharlotte/ccc-childtheme
+ * GitHub Theme URI: DioceseOfCharlotte/ccc-childtheme
+ * Description: A Wordpress child theme for the <a href="https://github.com/m-e-h/abraham">Abraham</a> parent theme.
+ * Version:     1.0.0
+ * Author:      Marty Helmick
+ * Author URI:  https://github.com/m-e-h
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    abraham
+ */
+
+/* ====== Primary Font ====== */
+
+.font-primary,
+body,
+input,
+textarea,
+.label-checkbox,
+.label-radio,
+.required,
+#site-description,
+#reply-title small { 
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* ====== Secondary Font ====== */
+
+.font-secondary,
+dt,
+th,
+legend,
+label,
+input[type="submit"],
+input[type="reset"], 
+input[type="button"],
+button,
+select,
+option,
+.wp-caption-text,
+.gallery-caption,
+.mejs-controls,
+.wp-playlist-item-meta,
+.entry-byline,
+.entry-footer,
+.chat-author cite,
+.chat-author,
+.comment-meta,
+.menu,
+.breadcrumb-trail,
+.media-info .prep,
+.comment-reply-link,
+.comment-reply-login,
+.clean-my-archives .day,
+.whistle-title {
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* ====== Headlines Font ====== */
+
+.font-headlines,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* Thin font weights. */
+
+#site-description, 
+.main,
+#menu-primary li a { font-weight: 300; }
+
+/* Normal font weights. */
+#menu-secondary li a,
+.widget-title > .wrap,
+#comments-number > .wrap,
+#reply-title > .wrap,
+.attachment-meta-title > .wrap,
+dt,
+dt.font-secondary { font-weight: 400; }
+
+/* Bold font weights. */
+
+b,
+strong,
+.comment-author { font-weight: 600; }
+
+/* Variables look better in serif. */
+var { 
+	font-family: 'Droid Serif', 'Lora', 'Georgia', serif; 
+}
