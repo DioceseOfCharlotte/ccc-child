@@ -45,10 +45,10 @@ input[type="password"],
 input[type="search"],
 textarea,
 select {
-  //@include transition(border-color);
-  background-color: white;
+  color: $base-font-color;
+  border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
-
+  font-family: $form-font-family;
   &:hover {
     border-color: $form-border-color-hover;
   }
