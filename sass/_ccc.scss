@@ -1,0 +1,150 @@
+body {
+  font-family: $fontDefault;
+  font-size: $fontBase;
+  line-height: 1.6250em; /* 26px */
+  font-weight: 300; // to thicken it a bit, we need to remove font-smoothing
+  color: $colorText;
+}
+
+.breadcrumbs {
+    .sep {
+      color: $colorText;
+      }
+    }
+
+    fieldset {
+  background: $base-bg-color;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea,
+select {
+  //@include transition(border-color);
+  background-color: white;
+  border: 1px solid $form-border-color;
+
+  &:hover {
+    border-color: $form-border-color-hover;
+  }
+
+  &:focus {
+    border-color: $form-border-color-focus;
+  }
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: none;
+  transition: color .1s linear;
+}
+
+a:hover {
+  color: $hover-link-color;
+  outline: 0;
+}
+
+td a, .cta--secondary {
+  @include style-cta($base-link-color, false);
+}
+
+  li {
+    border-bottom: 1px solid $colorGrayKeyline;
+}
+
+.footer {
+  background-color: rgba($colorGray, 0.8);
+  color: #fff;
+  .Footer-top {
+.widget {
+background-color: rgba($colorGray, 0.95);
+}
+}
+  a {
+    color: $colorGrayKeyline;
+    &:hover {
+
+    }
+  }
+}
+
+
+.comments-template,
+.entry, 
+.widget {
+background-color: #fff;
+border-radius: $base-border-radius;
+}
+
+
+
+.articles-section {
+  background: $colorGrayBackground;
+}
+
+.articles-count {
+  color: $base-accent-color;
+}
+
+.entry-content {
+column-rule: 1px solid $colorGrayBackground;
+}
+
+
+.app-bar {
+  background-color: $base-header-color;
+}
+
+.app-bar .site-title {
+  color: #fefefe;
+}
+
+.navdrawer-container {
+  background-color: $nav-drawer-color;
+  color: #fefefe;
+}
+
+.navdrawer-container ul li a {
+  color: white;
+}
+
+.navdrawer-container ul li {
+  border-color: white;
+}
+
+.navdrawer-container ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navdrawer-container ul li a:focus,
+.navdrawer-container ul li a:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+$menu-button-color : rgba(255, 255, 255, 0.79);
+  .app-bar-actions {
+    float: right;
+    margin: auto 0;
+
+    .menu-items {
+      li {
+      a {
+        @include button($menu-button-color, $base-link-color)
+        
+      }
+      }
+      }
+  }
+
+.menu-link span, .menu-link span:before, .menu-link span:after {
+background-color: $wet-asphalt;
+}
+
+.menu-header {
+height: 60px;
+background-color: #fff;
+}
+

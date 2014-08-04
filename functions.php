@@ -14,7 +14,7 @@
  * @version    1.0.0
  * @author     Marty Helmick
  * @copyright  Copyright (c) 2014, Diocese of Charlotte
- * @link       https://github.com/DioceseOfCharlotte/ccc-childtheme
+ * @link       https://github.com/DioceseOfCharlotte/ccc-child
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 

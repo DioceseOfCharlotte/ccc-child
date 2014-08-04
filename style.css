@@ -10,90 +10,466 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Template:    abraham
  */
+/**
+*
+* Variables
+*
+**/
+/*==========  VARIABLES  ==========*/
+/**
+*
+* Utils
+*
+**/
+/*==========  FUNCTIONS  ==========*/
+/*==========  MIXINS  ==========*/
+/**
+*
+* Helper
+*
+**/
+/*==========  COLORS  ==========*/
+/* line 10, sass/_helpers/_helper.scss */
+.color--blue {
+  color: #0c7499;
+}
 
-/* ====== Primary Font ====== */
+/* line 11, sass/_helpers/_helper.scss */
+.color--red {
+  color: #b28953;
+}
 
-.font-primary,
-body,
-input,
+/* line 12, sass/_helpers/_helper.scss */
+.color--green {
+  color: #73c395;
+}
+
+/* line 13, sass/_helpers/_helper.scss */
+.color--yellow {
+  color: #eac16f;
+}
+
+/* line 14, sass/_helpers/_helper.scss */
+.color--blue-secondary {
+  color: #4dc6f1;
+}
+
+/* line 15, sass/_helpers/_helper.scss */
+.color--red-secondary {
+  color: #e1d2bd;
+}
+
+/* line 16, sass/_helpers/_helper.scss */
+.color--green-secondary {
+  color: #def1e6;
+}
+
+/* line 17, sass/_helpers/_helper.scss */
+.color--yellow-secondary {
+  color: #f7e7c8;
+}
+
+/* line 19, sass/_helpers/_helper.scss */
+.color--gray-background {
+  color: #bdc3c7;
+}
+
+/* line 20, sass/_helpers/_helper.scss */
+.color--gray-keyline {
+  color: #e0e0e0;
+}
+
+/* line 21, sass/_helpers/_helper.scss */
+.color--gray {
+  color: #7f8c8d;
+}
+
+/* line 22, sass/_helpers/_helper.scss */
+.color--gray-dark {
+  color: #414344;
+}
+
+/* line 24, sass/_helpers/_helper.scss */
+.color--text {
+  color: #414344;
+}
+
+/* line 25, sass/_helpers/_helper.scss */
+.color--highlight {
+  color: #0c7499;
+}
+
+/* line 26, sass/_helpers/_helper.scss */
+.color--warning {
+  color: #f7e7c8;
+}
+
+/* line 27, sass/_helpers/_helper.scss */
+.color--danger {
+  color: #b28953;
+}
+
+/* line 28, sass/_helpers/_helper.scss */
+.color--muted {
+  color: #7f8c8d;
+}
+
+/* line 30, sass/_helpers/_helper.scss */
+.color--remember {
+  color: #e7dac9;
+}
+
+/* line 31, sass/_helpers/_helper.scss */
+.color--learning {
+  color: #da2e75;
+}
+
+/* line 33, sass/_helpers/_helper.scss */
+.color--layouts {
+  color: #297ea9;
+}
+
+/* line 34, sass/_helpers/_helper.scss */
+.color--user {
+  color: #2c8566;
+}
+
+/* line 35, sass/_helpers/_helper.scss */
+.color--media {
+  color: #cf423a;
+}
+
+/* line 36, sass/_helpers/_helper.scss */
+.color--performance {
+  color: #7b5294;
+}
+
+/* line 37, sass/_helpers/_helper.scss */
+.color--layouts-secondary {
+  color: #89c4e2;
+}
+
+/* line 38, sass/_helpers/_helper.scss */
+.color--user-secondary {
+  color: #78d2b3;
+}
+
+/* line 39, sass/_helpers/_helper.scss */
+.color--media-secondary {
+  color: #edb8b5;
+}
+
+/* line 40, sass/_helpers/_helper.scss */
+.color--performance-secondary {
+  color: #c4add2;
+}
+
+/*==========  TEXT DIVIDER  ==========*/
+/* line 46, sass/_helpers/_helper.scss */
+.text-divider {
+  position: relative;
+  margin-bottom: 26px;
+}
+/* line 50, sass/_helpers/_helper.scss */
+.text-divider::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  box-shadow: 0 1px 0 0 #e0e0e0;
+  left: 30%;
+  bottom: -13px;
+}
+/* line 61, sass/_helpers/_helper.scss */
+.text-divider.xlarge {
+  margin-bottom: 52px;
+}
+/* line 64, sass/_helpers/_helper.scss */
+.text-divider.xlarge::after {
+  bottom: -26px;
+}
+/* line 69, sass/_helpers/_helper.scss */
+.text-divider.xxlarge {
+  margin-bottom: 78px;
+}
+/* line 72, sass/_helpers/_helper.scss */
+.text-divider.xxlarge::after {
+  bottom: -39px;
+}
+/* line 77, sass/_helpers/_helper.scss */
+.text-divider.huge {
+  margin-bottom: 78px;
+}
+/* line 80, sass/_helpers/_helper.scss */
+.text-divider.huge::after {
+  bottom: -39px;
+}
+
+/*==========  GENERIC  ==========*/
+/* line 88, sass/_helpers/_helper.scss */
+.centered {
+  text-align: center;
+}
+
+/*==========  TAG  ==========*/
+/* line 94, sass/_helpers/_helper.scss */
+.tag {
+  font-size: 13px;
+  line-height: 2.0000em;
+  /* 26px */
+  padding-bottom: 0;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 102, sass/_helpers/_helper.scss */
+.tag:hover {
+  color: #414344;
+}
+/* line 106, sass/_helpers/_helper.scss */
+.tag::before {
+  content: "# ";
+  display: inline-block;
+}
+
+/* line 1, sass/_ccc.scss */
+body {
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6250em;
+  /* 26px */
+  font-weight: 300;
+  color: #414344;
+}
+
+/* line 10, sass/_ccc.scss */
+.breadcrumbs .sep {
+  color: #414344;
+}
+
+/* line 15, sass/_ccc.scss */
+fieldset {
+  background: #bdc3c7;
+}
+
+/* line 19, sass/_ccc.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
 textarea,
-.label-checkbox,
-.label-radio,
-.required,
-#site-description,
-#reply-title small { 
-	font-family:  'Open Sans', Arial, sans-serif;
-	font-weight: 300;
+select {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+/* line 30, sass/_ccc.scss */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+textarea:hover,
+select:hover {
+  border-color: #bababa;
+}
+/* line 34, sass/_ccc.scss */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #760a2e;
 }
 
-/* ====== Secondary Font ====== */
-
-.font-secondary,
-dt,
-th,
-legend,
-label,
-input[type="submit"],
-input[type="reset"], 
-input[type="button"],
-button,
-select,
-option,
-.wp-caption-text,
-.gallery-caption,
-.mejs-controls,
-.wp-playlist-item-meta,
-.entry-byline,
-.entry-footer,
-.chat-author cite,
-.chat-author,
-.comment-meta,
-.menu,
-.breadcrumb-trail,
-.media-info .prep,
-.comment-reply-link,
-.comment-reply-login,
-.clean-my-archives .day,
-.whistle-title {
-	font-family:  'Open Sans', Arial, sans-serif;
-	font-weight: 300;
+/* line 39, sass/_ccc.scss */
+a {
+  color: #760a2e;
+  text-decoration: none;
+  transition: color .1s linear;
 }
 
-/* ====== Headlines Font ====== */
-
-.font-headlines,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family:  'Open Sans', Arial, sans-serif;
-	font-weight: 300;
+/* line 45, sass/_ccc.scss */
+a:hover {
+  color: #47061c;
+  outline: 0;
 }
 
-/* Thin font weights. */
+/* line 50, sass/_ccc.scss */
+td a, .cta--secondary {
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  color: #760a2e;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 1;
+}
+/* line 281, sass/_helpers/_utils.scss */
+td a:hover, .cta--secondary:hover {
+  color: #414344;
+}
 
-#site-description, 
-.main,
-#menu-primary li a { font-weight: 300; }
+/* line 54, sass/_ccc.scss */
+li {
+  border-bottom: 1px solid #e0e0e0;
+}
 
-/* Normal font weights. */
-#menu-secondary li a,
-.widget-title > .wrap,
-#comments-number > .wrap,
-#reply-title > .wrap,
-.attachment-meta-title > .wrap,
-dt,
-dt.font-secondary { font-weight: 400; }
+/* line 58, sass/_ccc.scss */
+.footer {
+  background-color: rgba(127, 140, 141, 0.8);
+  color: #fff;
+}
+/* line 62, sass/_ccc.scss */
+.footer .Footer-top .widget {
+  background-color: rgba(127, 140, 141, 0.95);
+}
+/* line 66, sass/_ccc.scss */
+.footer a {
+  color: #e0e0e0;
+}
 
-/* Bold font weights. */
+/* line 75, sass/_ccc.scss */
+.comments-template,
+.entry,
+.widget {
+  background-color: #fff;
+  border-radius: 2px;
+}
 
-b,
-strong,
-.comment-author { font-weight: 600; }
+/* line 84, sass/_ccc.scss */
+.articles-section {
+  background: #bdc3c7;
+}
 
-/* Variables look better in serif. */
-var { 
-	font-family: 'Droid Serif', 'Lora', 'Georgia', serif; 
+/* line 88, sass/_ccc.scss */
+.articles-count {
+  color: #760a2e;
+}
+
+/* line 92, sass/_ccc.scss */
+.entry-content {
+  column-rule: 1px solid #bdc3c7;
+}
+
+/* line 97, sass/_ccc.scss */
+.app-bar {
+  background-color: #9c0d3d;
+}
+
+/* line 101, sass/_ccc.scss */
+.app-bar .site-title {
+  color: #fefefe;
+}
+
+/* line 105, sass/_ccc.scss */
+.navdrawer-container {
+  background-color: #760a2e;
+  color: #fefefe;
+}
+
+/* line 110, sass/_ccc.scss */
+.navdrawer-container ul li a {
+  color: white;
+}
+
+/* line 114, sass/_ccc.scss */
+.navdrawer-container ul li {
+  border-color: white;
+}
+
+/* line 118, sass/_ccc.scss */
+.navdrawer-container ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 122, sass/_ccc.scss */
+.navdrawer-container ul li a:focus,
+.navdrawer-container ul li a:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 128, sass/_ccc.scss */
+.app-bar-actions {
+  float: right;
+  margin: auto 0;
+}
+/* line 134, sass/_ccc.scss */
+.app-bar-actions .menu-items li a {
+  border-radius: 2px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.79);
+  color: #760a2e;
+  display: inline-block;
+  letter-spacing: .15em;
+  padding: 12px 32px 8px;
+  margin: 1em;
+  min-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transition: all 0.28s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 0.28s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.28s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+/* line 382, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a:not(.btn-disabled):hover {
+  background-color: rgba(255, 255, 255, 0.811);
+  color: #760a2e;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* line 397, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a:not(.btn-disabled):active, .app-bar-actions .menu-items li a:not(.btn-disabled):focus {
+  background-color: rgba(255, 255, 255, 0.832);
+  color: #760a2e;
+  outline: 0;
+  box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* line 406, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a.btn-hollow {
+  background: none;
+  color: #676869;
+  border: none;
+}
+/* line 411, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a.btn-hollow:hover {
+  background: none;
+  color: #414344;
+}
+/* line 415, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a.btn-hollow:active, .app-bar-actions .menu-items li a.btn-hollow:focus {
+  background: none;
+  color: #202122;
+}
+/* line 422, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a.btn-disabled {
+  background-color: rgba(255, 255, 255, 0.937);
+  cursor: default;
+  opacity: 0.7;
+  border: none;
+  box-shadow: none;
+}
+/* line 440, sass/_helpers/_utils.scss */
+.app-bar-actions .menu-items li a.btn-full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 142, sass/_ccc.scss */
+.menu-link span, .menu-link span:before, .menu-link span:after {
+  background-color: #34495e;
+}
+
+/* line 146, sass/_ccc.scss */
+.menu-header {
+  height: 60px;
+  background-color: #fff;
 }
