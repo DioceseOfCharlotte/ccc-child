@@ -6,6 +6,19 @@ body {
   color: $colorText;
 }
 
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button--secondary {
+  @include button;
+  //@include style-button(#ffffff, $colorBlue);
+}
+
+.button--secondary-variation {
+  @include button;
+  //@include style-button(#ffffff, $colorBlue, true);
+}
+
 .breadcrumbs {
     .sep {
       color: $colorText;

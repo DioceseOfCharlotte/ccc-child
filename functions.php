@@ -35,7 +35,7 @@ function ccc_theme_setup() {
 	add_theme_support(
 		'custom-background',
 		array(
-			'default-color' => 'ffffff',
+			'default-color' => 'f1f5f5',
 			'default-image' => '',
 		)
 	);
