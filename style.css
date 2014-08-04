@@ -458,7 +458,7 @@ a {
 
 /* line 58, sass/_ccc.scss */
 a:hover {
-  color: #47061c;
+  color: #d41253;
   outline: 0;
 }
 
@@ -622,7 +622,7 @@ td a:hover, .cta--secondary:hover {
 
 /* line 155, sass/_ccc.scss */
 .menu-link span, .menu-link span:before, .menu-link span:after {
-  background-color: #34495e;
+  background-color: #fff;
 }
 
 /* line 159, sass/_ccc.scss */

@@ -106,7 +106,7 @@ $base-header-color: lighten($nav-drawer-color, 8%) !default;
 
 // Link Colors
 $base-link-color: $base-accent-color;
-$hover-link-color: darken($base-link-color, 10);
+$hover-link-color: lighten($base-link-color, 20);
 $base-button-color: $base-accent-color;
 $hover-button-color: mix(black, $base-button-color, 15%);
 $active-button-color: mix(black, $base-button-color, 35%);
