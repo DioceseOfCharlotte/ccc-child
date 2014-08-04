@@ -111,8 +111,20 @@ column-rule: 1px solid $colorGrayBackground;
   background-color: $base-header-color;
 }
 
-.app-bar .site-title {
-  color: #fefefe;
+  .app-bar .site-title {
+max-width: 174px;
+line-height: 1;
+text-align: right;
+margin-top: auto;
+}
+
+.site-logo-anchor {
+  margin: 0;
+  margin-bottom: auto;
+}
+
+img.site-logo {
+padding-top: 3px;
 }
 
 .navdrawer-container {

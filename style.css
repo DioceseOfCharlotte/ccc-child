@@ -519,42 +519,56 @@ td a:hover, .cta--secondary:hover {
 
 /* line 114, sass/_ccc.scss */
 .app-bar .site-title {
-  color: #fefefe;
+  max-width: 174px;
+  line-height: 1;
+  text-align: right;
+  margin-top: auto;
 }
 
-/* line 118, sass/_ccc.scss */
+/* line 121, sass/_ccc.scss */
+.site-logo-anchor {
+  margin: 0;
+  margin-bottom: auto;
+}
+
+/* line 126, sass/_ccc.scss */
+img.site-logo {
+  padding-top: 3px;
+}
+
+/* line 130, sass/_ccc.scss */
 .navdrawer-container {
   background-color: #760a2e;
   color: #fefefe;
 }
 
-/* line 123, sass/_ccc.scss */
+/* line 135, sass/_ccc.scss */
 .navdrawer-container ul li a {
   color: white;
 }
 
-/* line 127, sass/_ccc.scss */
+/* line 139, sass/_ccc.scss */
 .navdrawer-container ul li {
   border-color: white;
 }
 
-/* line 131, sass/_ccc.scss */
+/* line 143, sass/_ccc.scss */
 .navdrawer-container ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 135, sass/_ccc.scss */
+/* line 147, sass/_ccc.scss */
 .navdrawer-container ul li a:focus,
 .navdrawer-container ul li a:active {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 141, sass/_ccc.scss */
+/* line 153, sass/_ccc.scss */
 .app-bar-actions {
   float: right;
   margin: auto 0;
 }
-/* line 147, sass/_ccc.scss */
+/* line 159, sass/_ccc.scss */
 .app-bar-actions .menu-items li a {
   border-radius: 2px;
   border: 0;
@@ -620,12 +634,12 @@ td a:hover, .cta--secondary:hover {
   width: 100%;
 }
 
-/* line 155, sass/_ccc.scss */
+/* line 167, sass/_ccc.scss */
 .menu-link span, .menu-link span:before, .menu-link span:after {
   background-color: #fff;
 }
 
-/* line 159, sass/_ccc.scss */
+/* line 171, sass/_ccc.scss */
 .menu-header {
   height: 60px;
   background-color: #fff;
