@@ -6,6 +6,15 @@ body {
   color: $colorText;
 }
 
+h1,
+h2,
+h3,
+.site-title,
+.entry-title
+{
+font-family: $fontHighlight;
+}
+
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
@@ -112,7 +121,7 @@ column-rule: 1px solid $colorGrayBackground;
 }
 
   .app-bar .site-title {
-max-width: 174px;
+max-width: 212px;
 line-height: 1;
 text-align: right;
 margin-top: auto;

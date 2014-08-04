@@ -55,6 +55,12 @@ function ccc_theme_setup() {
 
 	/* Add a custom default color for the "primary" color option. */
 	add_filter( 'theme_mod_color_primary', 'ccc_color_primary' );
+
+	/* Custom editor stylesheet. */
+	add_editor_style( '//fonts.googleapis.com/css?family=Cinzel:400,700|Open+Sans:400italic,400,700' );
+
+	/* Load stylesheets. */
+	add_action( 'wp_enqueue_scripts', 'ccc_enqueue_styles', 0 );
 }
 
 /**
@@ -79,6 +85,18 @@ function ccc_default_backgrounds( $backgrounds ) {
 	);
 
 	return array_merge( $new_backgrounds, $backgrounds );
+}
+
+
+/**
+ * Loads custom stylesheets for the theme.
+ *
+ * @since  1.0.0
+ * @access public
+ * @return void
+ */
+function ccc_enqueue_styles() {
+	wp_enqueue_style( 'ccc-fonts', '//fonts.googleapis.com/css?family=Cinzel:400,700|Open+Sans:400italic,400,700' );
 }
 
 /**
