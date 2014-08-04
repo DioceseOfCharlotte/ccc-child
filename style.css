@@ -313,11 +313,6 @@ td a:hover, .cta--secondary:hover {
   color: #414344;
 }
 
-/* line 54, sass/_ccc.scss */
-li {
-  border-bottom: 1px solid #e0e0e0;
-}
-
 /* line 58, sass/_ccc.scss */
 .footer {
   background-color: rgba(127, 140, 141, 0.8);

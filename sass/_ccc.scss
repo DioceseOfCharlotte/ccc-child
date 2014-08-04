@@ -51,9 +51,9 @@ td a, .cta--secondary {
   @include style-cta($base-link-color, false);
 }
 
-  li {
-    border-bottom: 1px solid $colorGrayKeyline;
-}
+//   li {
+//     border-bottom: 1px solid $colorGrayKeyline;
+// }
 
 .footer {
   background-color: rgba($colorGray, 0.8);

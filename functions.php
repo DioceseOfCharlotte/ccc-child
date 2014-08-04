@@ -44,7 +44,7 @@ function ccc_theme_setup() {
 	add_theme_support( 
 		'custom-header', 
 		array(
-			'default-text-color' => '252525',
+			'default-text-color' => 'FFFFFF',
 			'default-image'      => '',
 			'random-default'     => false,
 		)
@@ -90,5 +90,5 @@ function ccc_default_backgrounds( $backgrounds ) {
  * @return string
  */
 function ccc_color_primary( $hex ) {
-	return $hex ? $hex : '2759e5';
+	return $hex ? $hex : '760a2e';
 }
