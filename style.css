@@ -530,7 +530,7 @@ td a:hover, .cta--secondary:hover {
 
 /* line 123, sass/_ccc.scss */
 .app-bar .site-title {
-  max-width: 212px;
+  max-width: 138px;
   line-height: 1;
   text-align: right;
   margin-top: auto;
@@ -654,4 +654,16 @@ img.site-logo {
 .menu-header {
   height: 60px;
   background-color: #fff;
+}
+
+/* line 185, sass/_ccc.scss */
+.navdrawer-container .search-field:focus {
+  background-color: #e3ced5;
+}
+
+@media all and (min-width: 990px) {
+  /* line 190, sass/_ccc.scss */
+  .app-bar .site-title {
+    max-width: 212px;
+  }
 }

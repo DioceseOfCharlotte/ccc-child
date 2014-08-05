@@ -121,7 +121,7 @@ column-rule: 1px solid $colorGrayBackground;
 }
 
   .app-bar .site-title {
-max-width: 212px;
+max-width: 138px;
 line-height: 1;
 text-align: right;
 margin-top: auto;
@@ -180,4 +180,14 @@ background-color: #fff;
 .menu-header {
 height: 60px;
 background-color: #fff;
+}
+
+.navdrawer-container .search-field:focus {
+  background-color: mix(white, $base-accent-color, 80%);
+}
+
+@media all and (min-width: 990px) {
+  .app-bar .site-title {
+max-width: 212px;
+}
 }
