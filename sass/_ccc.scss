@@ -196,3 +196,32 @@ background-color: #fff;
 max-width: 212px;
 }
 }
+
+
+
+.home-site-main .flexslider {
+background: $nav-drawer-color;
+//padding-bottom: 60px;
+}
+
+
+  /* Control Nav */
+.home-site-main {
+  .flex-control-paging li {
+    background-color: #fff;
+    padding: 1px;
+  }
+.flex-control-paging li a {
+  background: $nav-drawer-color;
+}
+.flex-control-paging li a:hover {
+  background: mix(white, $nav-drawer-color, 20%);
+}
+.flex-control-paging li a.flex-active {
+  background: $base-header-color;
+}
+
+.flex-direction-nav a:before  { 
+  color: $base-link-color;
+  }
+}

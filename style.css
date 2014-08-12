@@ -672,3 +672,30 @@ img.site-logo {
     max-width: 212px;
   }
 }
+/* line 202, sass/_ccc.scss */
+.home-site-main .flexslider {
+  background: #760a2e;
+}
+
+/* Control Nav */
+/* line 210, sass/_ccc.scss */
+.home-site-main .flex-control-paging li {
+  background-color: #fff;
+  padding: 1px;
+}
+/* line 214, sass/_ccc.scss */
+.home-site-main .flex-control-paging li a {
+  background: #760a2e;
+}
+/* line 217, sass/_ccc.scss */
+.home-site-main .flex-control-paging li a:hover {
+  background: #913b57;
+}
+/* line 220, sass/_ccc.scss */
+.home-site-main .flex-control-paging li a.flex-active {
+  background: #9c0d3d;
+}
+/* line 224, sass/_ccc.scss */
+.home-site-main .flex-direction-nav a:before {
+  color: #760a2e;
+}
