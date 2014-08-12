@@ -125,6 +125,7 @@ max-width: 138px;
 line-height: 1;
 text-align: right;
 margin-top: auto;
+z-index: 2;
 }
 
 .site-logo-anchor {
@@ -133,7 +134,11 @@ margin-top: auto;
 }
 
 img.site-logo {
-padding-top: 3px;
+opacity: .3;
+position: absolute;
+z-index: 1;
+height: 100%;
+width: auto;
 }
 
 .navdrawer-container {
